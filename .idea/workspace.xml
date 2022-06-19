@@ -63,13 +63,26 @@
       <recent name="com.uday.java.ArraysExamples" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicates">
+  <component name="RunManager" selected="Application.FindNumber">
     <configuration name="AnagramTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.uday.java.StringExamples.AnagramTest" />
       <module name="Javainterviewprep" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.uday.java.StringExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uday.java.ArraysExamples.FindNumber" />
+      <module name="Javainterviewprep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uday.java.ArraysExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,19 +109,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.uday.java.ArraysExamples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotationCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uday.java.StringExamples.RotationCheck" />
-      <module name="Javainterviewprep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uday.java.StringExamples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,20 +156,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.RotationCheck" />
       <item itemvalue="Application.WellFormedBraces" />
       <item itemvalue="Maven.[clean,install]" />
       <item itemvalue="Application.AnagramTest" />
       <item itemvalue="Application.MatchPatterns" />
       <item itemvalue="Application.RemoveDuplicates" />
+      <item itemvalue="Application.FindNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNumber" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.MatchPatterns" />
         <item itemvalue="Application.AnagramTest" />
         <item itemvalue="Application.WellFormedBraces" />
-        <item itemvalue="Application.RotationCheck" />
       </list>
     </recent_temporary>
   </component>
