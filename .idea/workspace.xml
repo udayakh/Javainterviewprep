@@ -68,20 +68,7 @@
       <recent name="com.uday.java.ArraysExamples" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayIsSortedEfficient">
-    <configuration name="ArrayIsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.ArrayIsSorted" />
-      <module name="Javainterviewprep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.uday.java.algorthims.Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveDuplicateFromSortedArray2">
     <configuration name="ArrayIsSortedEfficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.ArrayIsSortedEfficient" />
       <module name="Javainterviewprep" />
@@ -95,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayIsSortedNaive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.ArrayIsSortedNaive" />
+    <configuration name="RemoveDuplicateFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.RemoveDuplicateFromSortedArray" />
       <module name="Javainterviewprep" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.selfPractice.DynamicArray" />
+    <configuration name="RemoveDuplicateFromSortedArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.RemoveDuplicateFromSortedArray2" />
       <module name="Javainterviewprep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.uday.java.algorthims.Arrays.selfPractice.*" />
+          <option name="PATTERN" value="com.uday.java.algorthims.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.selfPractice.LinearSearch" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.ReverseArray" />
       <module name="Javainterviewprep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.uday.java.algorthims.Arrays.selfPractice.*" />
+          <option name="PATTERN" value="com.uday.java.algorthims.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uday.java.algorthims.Arrays.ReverseArray2" />
+      <module name="Javainterviewprep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uday.java.algorthims.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,20 +161,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DynamicArray" />
-      <item itemvalue="Application.LinearSearch" />
       <item itemvalue="Maven.[clean,install]" />
-      <item itemvalue="Application.ArrayIsSorted" />
-      <item itemvalue="Application.ArrayIsSortedNaive" />
       <item itemvalue="Application.ArrayIsSortedEfficient" />
+      <item itemvalue="Application.ReverseArray" />
+      <item itemvalue="Application.ReverseArray2" />
+      <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
+      <item itemvalue="Application.RemoveDuplicateFromSortedArray2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicateFromSortedArray2" />
+        <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
+        <item itemvalue="Application.ReverseArray2" />
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.ArrayIsSortedEfficient" />
-        <item itemvalue="Application.ArrayIsSortedNaive" />
-        <item itemvalue="Application.ArrayIsSorted" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.DynamicArray" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +192,7 @@
       <workItem from="1654722205889" duration="1315000" />
       <workItem from="1654980366291" duration="10487000" />
       <workItem from="1656014823450" duration="31605000" />
-      <workItem from="1657568152471" duration="2143000" />
+      <workItem from="1657568152471" duration="5057000" />
     </task>
     <servers />
   </component>
@@ -236,8 +236,8 @@
     </state>
     <state width="424" height="466" key="DebuggerActiveHint/0.25.1629.1025@0.25.1629.1025" timestamp="1654690295265" />
     <state width="484" height="480" key="DebuggerActiveHint/0.25.1858.1055@0.25.1858.1055" timestamp="1656795537829" />
-    <state width="1816" height="353" key="GridCell.Tab.0.bottom" timestamp="1657570482971">
-      <screen x="1680" y="25" width="1858" height="1055" />
+    <state width="1816" height="286" key="GridCell.Tab.0.bottom" timestamp="1657609983540">
+      <screen x="1680" y="25" width="1860" height="1055" />
     </state>
     <state width="1571" height="277" key="GridCell.Tab.0.bottom/0.25.1615.1025@0.25.1615.1025" timestamp="1655761226266" />
     <state width="1571" height="342" key="GridCell.Tab.0.bottom/0.25.1619.1025@0.25.1619.1025" timestamp="1656006324218" />
@@ -250,8 +250,9 @@
     <state width="1818" height="286" key="GridCell.Tab.0.bottom/0.25.1862.1055@0.25.1862.1055" timestamp="1657049448865" />
     <state width="1809" height="286" key="GridCell.Tab.0.bottom/1680.25.1851.1055/0.25.1680.1025@1680.25.1851.1055" timestamp="1656450896053" />
     <state width="1816" height="353" key="GridCell.Tab.0.bottom/1680.25.1858.1055/0.25.1680.1025@1680.25.1858.1055" timestamp="1657570482971" />
-    <state width="1816" height="353" key="GridCell.Tab.0.center" timestamp="1657570482970">
-      <screen x="1680" y="25" width="1858" height="1055" />
+    <state width="1816" height="286" key="GridCell.Tab.0.bottom/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657609983540" />
+    <state width="1816" height="286" key="GridCell.Tab.0.center" timestamp="1657609983538">
+      <screen x="1680" y="25" width="1860" height="1055" />
     </state>
     <state width="1571" height="277" key="GridCell.Tab.0.center/0.25.1615.1025@0.25.1615.1025" timestamp="1655761226265" />
     <state width="1571" height="342" key="GridCell.Tab.0.center/0.25.1619.1025@0.25.1619.1025" timestamp="1656006324216" />
@@ -264,8 +265,9 @@
     <state width="1818" height="286" key="GridCell.Tab.0.center/0.25.1862.1055@0.25.1862.1055" timestamp="1657049448864" />
     <state width="1809" height="286" key="GridCell.Tab.0.center/1680.25.1851.1055/0.25.1680.1025@1680.25.1851.1055" timestamp="1656450896052" />
     <state width="1816" height="353" key="GridCell.Tab.0.center/1680.25.1858.1055/0.25.1680.1025@1680.25.1858.1055" timestamp="1657570482970" />
-    <state width="1816" height="353" key="GridCell.Tab.0.left" timestamp="1657570482969">
-      <screen x="1680" y="25" width="1858" height="1055" />
+    <state width="1816" height="286" key="GridCell.Tab.0.center/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657609983538" />
+    <state width="1816" height="286" key="GridCell.Tab.0.left" timestamp="1657609983538">
+      <screen x="1680" y="25" width="1860" height="1055" />
     </state>
     <state width="1571" height="277" key="GridCell.Tab.0.left/0.25.1615.1025@0.25.1615.1025" timestamp="1655761226265" />
     <state width="1571" height="342" key="GridCell.Tab.0.left/0.25.1619.1025@0.25.1619.1025" timestamp="1656006324215" />
@@ -278,8 +280,9 @@
     <state width="1818" height="286" key="GridCell.Tab.0.left/0.25.1862.1055@0.25.1862.1055" timestamp="1657049448864" />
     <state width="1809" height="286" key="GridCell.Tab.0.left/1680.25.1851.1055/0.25.1680.1025@1680.25.1851.1055" timestamp="1656450896052" />
     <state width="1816" height="353" key="GridCell.Tab.0.left/1680.25.1858.1055/0.25.1680.1025@1680.25.1858.1055" timestamp="1657570482969" />
-    <state width="1816" height="353" key="GridCell.Tab.0.right" timestamp="1657570482971">
-      <screen x="1680" y="25" width="1858" height="1055" />
+    <state width="1816" height="286" key="GridCell.Tab.0.left/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657609983538" />
+    <state width="1816" height="286" key="GridCell.Tab.0.right" timestamp="1657609983539">
+      <screen x="1680" y="25" width="1860" height="1055" />
     </state>
     <state width="1571" height="277" key="GridCell.Tab.0.right/0.25.1615.1025@0.25.1615.1025" timestamp="1655761226265" />
     <state width="1571" height="342" key="GridCell.Tab.0.right/0.25.1619.1025@0.25.1619.1025" timestamp="1656006324217" />
@@ -292,8 +295,9 @@
     <state width="1818" height="286" key="GridCell.Tab.0.right/0.25.1862.1055@0.25.1862.1055" timestamp="1657049448864" />
     <state width="1809" height="286" key="GridCell.Tab.0.right/1680.25.1851.1055/0.25.1680.1025@1680.25.1851.1055" timestamp="1656450896053" />
     <state width="1816" height="353" key="GridCell.Tab.0.right/1680.25.1858.1055/0.25.1680.1025@1680.25.1858.1055" timestamp="1657570482971" />
-    <state width="1816" height="353" key="GridCell.Tab.1.bottom" timestamp="1657570374400">
-      <screen x="1680" y="25" width="1858" height="1055" />
+    <state width="1816" height="286" key="GridCell.Tab.0.right/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657609983539" />
+    <state width="1816" height="353" key="GridCell.Tab.1.bottom" timestamp="1657609978892">
+      <screen x="1680" y="25" width="1860" height="1055" />
     </state>
     <state width="1571" height="342" key="GridCell.Tab.1.bottom/0.25.1615.1025@0.25.1615.1025" timestamp="1654982126162" />
     <state width="1571" height="342" key="GridCell.Tab.1.bottom/0.25.1619.1025@0.25.1619.1025" timestamp="1656006324220" />
@@ -305,8 +309,9 @@
     <state width="1818" height="353" key="GridCell.Tab.1.bottom/0.25.1862.1055@0.25.1862.1055" timestamp="1657049251088" />
     <state width="1809" height="353" key="GridCell.Tab.1.bottom/1680.25.1851.1055/0.25.1680.1025@1680.25.1851.1055" timestamp="1656450529233" />
     <state width="1816" height="353" key="GridCell.Tab.1.bottom/1680.25.1858.1055/0.25.1680.1025@1680.25.1858.1055" timestamp="1657570374400" />
-    <state width="1816" height="353" key="GridCell.Tab.1.center" timestamp="1657570374398">
-      <screen x="1680" y="25" width="1858" height="1055" />
+    <state width="1816" height="353" key="GridCell.Tab.1.bottom/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657609978892" />
+    <state width="1816" height="353" key="GridCell.Tab.1.center" timestamp="1657609978891">
+      <screen x="1680" y="25" width="1860" height="1055" />
     </state>
     <state width="1571" height="342" key="GridCell.Tab.1.center/0.25.1615.1025@0.25.1615.1025" timestamp="1654982126161" />
     <state width="1571" height="342" key="GridCell.Tab.1.center/0.25.1619.1025@0.25.1619.1025" timestamp="1656006324219" />
@@ -318,8 +323,9 @@
     <state width="1818" height="353" key="GridCell.Tab.1.center/0.25.1862.1055@0.25.1862.1055" timestamp="1657049251087" />
     <state width="1809" height="353" key="GridCell.Tab.1.center/1680.25.1851.1055/0.25.1680.1025@1680.25.1851.1055" timestamp="1656450529233" />
     <state width="1816" height="353" key="GridCell.Tab.1.center/1680.25.1858.1055/0.25.1680.1025@1680.25.1858.1055" timestamp="1657570374398" />
-    <state width="1816" height="353" key="GridCell.Tab.1.left" timestamp="1657570374398">
-      <screen x="1680" y="25" width="1858" height="1055" />
+    <state width="1816" height="353" key="GridCell.Tab.1.center/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657609978891" />
+    <state width="1816" height="353" key="GridCell.Tab.1.left" timestamp="1657609978891">
+      <screen x="1680" y="25" width="1860" height="1055" />
     </state>
     <state width="1571" height="342" key="GridCell.Tab.1.left/0.25.1615.1025@0.25.1615.1025" timestamp="1654982126161" />
     <state width="1571" height="342" key="GridCell.Tab.1.left/0.25.1619.1025@0.25.1619.1025" timestamp="1656006324219" />
@@ -331,8 +337,9 @@
     <state width="1818" height="353" key="GridCell.Tab.1.left/0.25.1862.1055@0.25.1862.1055" timestamp="1657049251086" />
     <state width="1809" height="353" key="GridCell.Tab.1.left/1680.25.1851.1055/0.25.1680.1025@1680.25.1851.1055" timestamp="1656450529233" />
     <state width="1816" height="353" key="GridCell.Tab.1.left/1680.25.1858.1055/0.25.1680.1025@1680.25.1858.1055" timestamp="1657570374398" />
-    <state width="1816" height="353" key="GridCell.Tab.1.right" timestamp="1657570374399">
-      <screen x="1680" y="25" width="1858" height="1055" />
+    <state width="1816" height="353" key="GridCell.Tab.1.left/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657609978891" />
+    <state width="1816" height="353" key="GridCell.Tab.1.right" timestamp="1657609978892">
+      <screen x="1680" y="25" width="1860" height="1055" />
     </state>
     <state width="1571" height="342" key="GridCell.Tab.1.right/0.25.1615.1025@0.25.1615.1025" timestamp="1654982126162" />
     <state width="1571" height="342" key="GridCell.Tab.1.right/0.25.1619.1025@0.25.1619.1025" timestamp="1656006324220" />
@@ -344,6 +351,11 @@
     <state width="1818" height="353" key="GridCell.Tab.1.right/0.25.1862.1055@0.25.1862.1055" timestamp="1657049251087" />
     <state width="1809" height="353" key="GridCell.Tab.1.right/1680.25.1851.1055/0.25.1680.1025@1680.25.1851.1055" timestamp="1656450529233" />
     <state width="1816" height="353" key="GridCell.Tab.1.right/1680.25.1858.1055/0.25.1680.1025@1680.25.1858.1055" timestamp="1657570374399" />
+    <state width="1816" height="353" key="GridCell.Tab.1.right/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657609978892" />
+    <state x="2197" y="291" key="IDE.errors.dialog" timestamp="1657608396416">
+      <screen x="1680" y="25" width="1860" height="1055" />
+    </state>
+    <state x="2197" y="291" key="IDE.errors.dialog/1680.25.1860.1055/0.25.1680.1025@1680.25.1860.1055" timestamp="1657608396416" />
     <state x="2020" y="119" key="SettingsEditor" timestamp="1656448979126">
       <screen x="1680" y="25" width="1851" height="1055" />
     </state>
