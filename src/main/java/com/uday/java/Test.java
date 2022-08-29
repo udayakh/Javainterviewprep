@@ -13,7 +13,12 @@ import java.util.Map;
 
 public class Test {
     public static void main(String[] args) {
-        String str="applesforapples";
+         short s =9;
+        System.out.println(add(s,6));
 
+    }
+
+    private static int add(int s, int i) {
+        return s+i;
     }
 }
